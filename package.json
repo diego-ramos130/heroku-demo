@@ -6,6 +6,9 @@
   "directories": {
     "lib": "lib"
   },
+  "engines" : {
+    "node": "10.8.0"
+  },
   "scripts": {
     "test": "eslint . && jest --coverage --forceExit --runInBand",
     "lint": "eslint .",
